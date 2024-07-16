@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+
+    background-color: white;
+    height: 80px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+
+    border-bottom: 0.5px solid rgb(177, 177, 177);
+    overflow: clip;
+}
+
+.logo {
+
+    margin-top: 11px;
+}
+
+html,
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav h5 {
+
+    font-size: 11px;
+    font-weight: 700;
+
+}
+
+.logo {
+
+    margin-right: 18px;
+}
+
+.nav {
+
+    display: flex;
+    gap: 25px;
+    margin-right: 30px;
+
+}
+
+#new {
+
+    color: rgb(92, 164, 92);
+}
+
+#line {
+
+    border-top: 2px solid rgb(92, 164, 92);
+}
