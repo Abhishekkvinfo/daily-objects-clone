@@ -59,24 +59,40 @@ body {
 }
 .banner{
 
-    margin: 18px;
-    position: relative;
+    margin-bottom: 30px;
+}
+.human img{
+
+    margin-left: 20px;
+}
+.human{
+
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.text2{
+
+    padding:50px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(25, 23, 23);
     
 }
-.text1 h1,p{
-
-text-align: center;
-}
-.text1{
-
-    margin-top: 30px;
+.button1{
     text-align: center;
+    margin-bottom: 50px;
+    
 }
-.text1 button{
+.button1 button{
 
-    background-color: rgb(92, 164, 92);
+    background-color: rgb(98, 190, 144);
     border-style: none;
-    padding: 10px;
-    margin: 20px;
-    margin-bottom: 200px;
+    padding: 18px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
 }
