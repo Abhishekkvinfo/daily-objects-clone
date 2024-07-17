@@ -12,7 +12,7 @@
     gap: 30px;
     align-items: center;
     padding: 10px;
-
+    width: 100%;
     border-bottom: 0.5px solid rgb(177, 177, 177);
     overflow: clip;
 }
@@ -74,9 +74,11 @@ text-align: center;
 }
 .text1 button{
 
-    background-color: rgb(92, 164, 92);
+    background-color: rgb(74, 200, 152);
     border-style: none;
     padding: 10px;
     margin: 20px;
     margin-bottom: 200px;
+    font-weight: 600;
+    color: white;
 }
