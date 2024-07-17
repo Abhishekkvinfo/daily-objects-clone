@@ -22,8 +22,8 @@
     margin-top: 11px;
 }
 
-html,
-body {
+
+body{
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,28 +57,86 @@ body {
 
     border-top: 2px solid rgb(92, 164, 92);
 }
-.banner{
+
+.banner {
 
     margin: 18px;
     position: relative;
-    
-}
-.text1 h1,p{
 
-text-align: center;
 }
-.text1{
+
+.text1 h1 {
+
+    text-align: center;
+}
+
+.text1 {
 
     margin-top: 30px;
     text-align: center;
 }
-.text1 button{
+
+.text1 button {
 
     background-color: rgb(74, 200, 152);
     border-style: none;
     padding: 10px;
     margin: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     font-weight: 600;
     color: white;
+}
+
+.newarrivals {
+
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 400px;
+
+}
+
+#text3 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text3 {
+
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.text3 button {
+
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    background-color: rgb(74, 200, 152);
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 110px;
+}
+
+.newarrivals p {
+
+    color: rgb(163, 163, 163);
+    font-size: small;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.text3 p {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+    color: rgb(48, 45, 45);
 }
